@@ -1,12 +1,3 @@
-// CTA Button click handler (non-modal buttons)
-const ctaButtons = document.querySelectorAll('.cta-button:not([data-open-modal])');
-ctaButtons.forEach(button => {
-    button.addEventListener('click', function() {
-        alert('Thank you for your interest! A team member will contact you soon.');
-        // In a real scenario, this would trigger a contact form or modal
-    });
-});
-
 // Consultation modal logic
 const consultationModal = document.getElementById('consultationModal');
 const consultationForm = document.getElementById('consultationForm');
